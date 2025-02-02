@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# AI-PDF-to-Notes 🤖📚
 
-First, run the development server:
+Transform PDF documents into interactive notes using AI-powered conversations. Built with modern web technologies and Gemini AI integration.
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Online-green?style=for-the-badge&logo=vercel)](https://ai-pdf-note-taker-gray.vercel.app/)
+
+## Features ✨
+
+- **PDF Interaction** - Upload and chat with your PDF documents
+- **AI-Powered Insights** - Get summaries and answers using Google's Gemini API
+- **Conversation History** - Automatically saved chat sessions with your documents
+- **Secure Authentication** - User management powered by Clerk
+- **Real-time Database** - Built on Convex for seamless data synchronization
+- **Responsive UI** - Modern interface built with Next.js 14
+
+## Tech Stack 🛠️
+
+- **Frontend**: Next.js 14 (App Router)
+- **Backend**: Convex (Database & Server Functions)
+- **Authentication**: Clerk
+- **AI**: Gemini API
+- **Styling**: Tailwind CSS
+- **Hosting**: Vercel
+
+## Getting Started 🚀
+
+### Prerequisites
+
+- Node.js v18+
+- Convex account
+- Clerk account
+- Gemini API key
+
+### Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/your-username/AI-PDF-to-Notes.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+3. Set up environment variables:
+Create `.env.local` file with:
+```env
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_pub_key
+CLERK_SECRET_KEY=your_clerk_secret_key
+NEXT_PUBLIC_CONVEX_URL=your_convex_url
+GEMINI_API_KEY=your_gemini_key
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Run the development server:
+```bash
+npm run dev
+```
 
-## Learn More
+## Usage 📖
 
-To learn more about Next.js, take a look at the following resources:
+1. Sign up/Sign in using Clerk authentication
+2. Upload your PDF document
+3. Start chatting with your PDF:
+   - Ask for summaries
+   - Request specific information
+   - Get key points and insights
+4. View previous conversations in your chat history
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contributing 🤝
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Contributions are welcome! Please follow these steps:
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-## Deploy on Vercel
+## License 📄
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Distributed under the MIT License. See `LICENSE` for more information.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Acknowledgments 🙏
+
+- Google Gemini API for AI capabilities
+- Convex for real-time database functionality
+- Clerk for secure authentication
+- Vercel for hosting and deployment
+```
+
