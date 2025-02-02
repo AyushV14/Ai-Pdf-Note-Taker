@@ -23,6 +23,18 @@ Transform PDF documents into interactive notes using AI-powered conversations. B
 - **Styling**: Tailwind CSS
 - **Hosting**: Vercel
 
+  
+## Screenshots:
+
+![image](https://github.com/user-attachments/assets/fe027fe5-ff68-4d9c-b9f6-d8c1a2a50086)
+
+![image](https://github.com/user-attachments/assets/8f6eba4e-683a-4c1e-aa44-1e367ac1c700)
+
+![image](https://github.com/user-attachments/assets/77a23a2d-3623-476f-b7d8-4e366066d2ce)
+
+
+
+
 ## Getting Started 🚀
 
 ### Prerequisites
@@ -87,5 +99,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
 - Convex for real-time database functionality
 - Clerk for secure authentication
 - Vercel for hosting and deployment
-```
-
